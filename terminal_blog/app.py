@@ -9,13 +9,35 @@ import pymongo
 # students = [student['mark'] for student in collection.find({})]
 #
 # print(students)
-
+from database import Database
 from models.post import Post
 
-post = Post("Post1 title", "Post1 content", "Post1 author")
+Database.initialize()
 
-post2 = Post("Post2 title", "Post2 content", "Post2 author")
+# post = Post(blog_id="123",
+#             title="Another great post 2",
+#             content="This is some sample content 2",
+#             author="Jose")
+#
+# post.save_to_mongo()
 
-print(post.content)
 
-print(post2.content)
+# post = Post.from_mongo('bbfc7993d6654d3a9cc6354cc3dd9828')
+# posts =[post for post in Post.from_blog('123')]
+
+# for post in posts:
+#     print(post)
+
+# print(posts)
+
+blog = Blog(author="Jose",
+            title="Sample title",
+            description="Sample discription")
+
+blog.new_post()
+
+blog.save_to_mongo()
+
+Blog.from_mongo()
+
+blog.get_posts() # Post.from_blog(id)
