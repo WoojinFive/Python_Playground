@@ -10,6 +10,7 @@ import pymongo
 #
 # print(students)
 from database import Database
+from menu import Menu
 from models.blog import Blog
 from models.post import Post
 
@@ -31,14 +32,18 @@ Database.initialize()
 
 # print(posts)
 
-blog = Blog(author="Jose",
-            title="Sample title",
-            description="Sample discription")
+# blog = Blog(author="Jose",
+#             title="Sample title",
+#             description="Sample discription")
+#
+# blog.new_post()
+#
+# blog.save_to_mongo()
+#
+# from_database = Blog.from_mongo(blog.id)
+#
+# print(blog.get_posts()) # Post.from_blog(id)
 
-blog.new_post()
+menu = Menu()
 
-blog.save_to_mongo()
-
-from_database = Blog.from_mongo(blog.id)
-
-print(blog.get_posts()) # Post.from_blog(id)
+menu.run_menu()
