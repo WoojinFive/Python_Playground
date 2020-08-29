@@ -10,6 +10,7 @@ import pymongo
 #
 # print(students)
 from database import Database
+from models.blog import Blog
 from models.post import Post
 
 Database.initialize()
@@ -38,6 +39,6 @@ blog.new_post()
 
 blog.save_to_mongo()
 
-Blog.from_mongo()
+from_database = Blog.from_mongo(blog.id)
 
-blog.get_posts() # Post.from_blog(id)
+print(blog.get_posts()) # Post.from_blog(id)
