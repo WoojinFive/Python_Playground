@@ -6,12 +6,16 @@ from src.models.user import User
 app = Flask(__name__) # '__main__'
 app.secret_key = "jose"
 
+@app.route('/')
+def home_template():
+    return render_template('home.html')
+
 @app.route('/login') # www.mysite.com/api/login
-def hello_method():
+def login_template():
     return render_template('login.html')
 
 @app.route('/register') # www.mysite.com/api/register
-def hello_method():
+def register_template():
     return render_template('register.html')
 
 @app.before_first_request
@@ -40,4 +44,4 @@ def register_user():
     return render_template('profile.html', email=session['email'])
 
 if __name__ == '__main__':
-    app.run(port=4995)
+    app.run(port=4995, debug=True)
