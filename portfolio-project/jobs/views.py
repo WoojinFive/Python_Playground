@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def woojin(request):
+    return render(request, 'jobs/woojin.html')
