@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 
-def woojin(request):
-    return render(request, 'jobs/woojin.html')
+def home(request):
+    return render(request, 'jobs/home.html')
