@@ -5,5 +5,6 @@
 <form action="{% url 'order' %}" method="post">
   {% csrf_token %}
   {{ pizzaform }}
+
   <input type="submit" value="Order Pizza">
 </form>
