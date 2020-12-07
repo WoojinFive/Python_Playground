@@ -6,8 +6,18 @@
 {% endif %}
 
 {% comment %} <form enctype="multipart/form-data" action="{% url 'order' %}" method="post"> {% endcomment %}
-  <form action="{% url 'order' %}" method="post" novalidate>
+  <form action="{% url 'order' %}" method="post">
     {% csrf_token %}
+    {% comment %} <table>
+      {{ pizzaform.as_table }}
+    </table> {% endcomment %}
+
+    {% comment %} {{ pizzaform.as_p }} {% endcomment %}
+
+    {% comment %} <ul>
+      {{ pizzaform.as_ul }}
+    </ul> {% endcomment %}
+
     {{ pizzaform }}
 
     <input type="submit" value="Order Pizza">
