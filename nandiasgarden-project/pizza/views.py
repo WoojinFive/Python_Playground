@@ -4,7 +4,7 @@ from django.forms import formset_factory
 
 
 def home(request):
-    return render(request, 'home.html')
+    return render(request, 'pizza/home.html')
 
 
 def order(request):
@@ -17,10 +17,10 @@ def order(request):
                                                                                     filled_form.cleaned_data['topping1'],
                                                                                     filled_form.cleaned_data['topping2'],)
             new_form = PizzaForm()
-            return render(request, 'order.html', {'pizzaform': new_form, 'note': note, 'multiple_form': multiple_form})
+            return render(request, 'pizza/order.html', {'pizzaform': new_form, 'note': note, 'multiple_form': multiple_form})
     else:
         form = PizzaForm()
-        return render(request, 'order.html', {'pizzaform': form, 'multiple_form': multiple_form})
+        return render(request, 'pizza/order.html', {'pizzaform': form, 'multiple_form': multiple_form})
 
 
 def pizzas(request):
@@ -38,4 +38,6 @@ def pizzas(request):
             note = 'Pizzas have been ordered!'
         else:
             note = 'Order was not created, please try again'
-        return render(request, 'pizzas.html', {'note': note, 'formset': formset})
+        return render(request, 'pizza/pizzas.html', {'note': note, 'formset': formset})
+    else:
+        return render(request, 'pizza/pizzas.html', {'formset': formset})
