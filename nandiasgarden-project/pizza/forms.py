@@ -16,8 +16,8 @@ from .models import Pizza, Size
 #         'Small', 'Small'), ('Medium', 'Medium'), ('Large', 'Large')])
 
 class PizzaForm(forms.ModelForm):
-    size = forms.ModelChoiceField(
-        queryset=Size.objects, empty_label=None, widget=forms.RadioSelect)
+    # size = forms.ModelChoiceField(queryset = Size.objects, empty_label = None, widget = forms.RadioSelect)
+    image = forms.ImageField()
 
     class Meta:
         model = Pizza
