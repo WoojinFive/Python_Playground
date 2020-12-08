@@ -22,3 +22,7 @@ def detail(request, id):
     #     raise Http404("Album does not exist")
     album = get_object_or_404(Album, id=id)
     return render(request, 'music/detail.html', {'album': album})
+
+
+def favorite(request, id):
+    pass
