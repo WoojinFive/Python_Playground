@@ -13,3 +13,15 @@ def myfunctionabout(request):
 
 def add(request, a, b):
     return HttpResponse(a+b)
+
+
+def intro(request, name, age):
+    mydictionary = {
+        "name": name,
+        "age": age
+    }
+    return JsonResponse(mydictionary)
+
+
+def myfirstpage(request):
+    return render(request, 'index.html')
