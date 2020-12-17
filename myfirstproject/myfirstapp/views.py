@@ -80,7 +80,33 @@ def submitmyform(request):
 
 def myform2(request):
     if request.method == "POST":
-        pass
+        form = FeedbackForm(request.POST)
+        if form.is_valid():
+            title = request.POST['title']
+            subject = request.POST['subject']
+            email = request.POST['email']
+            mydictionary = {
+                "form": FeedbackForm()
+            }
+            errorflag = False
+            Errors = []
+            if title != title.upper():
+                errorflag = True
+                errormsg = "Title should be in capital letter"
+                Errors.append(errormsg)
+            import re
+            regex = '^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$'
+            if not re.search(regex, email):
+                errorflag = True
+                errormsg = "Not a Valid Email Address"
+                Errors.append(errormsg)
+            if errorflag != True:
+                mydictionary["success"] = True
+                mydictionary["successmsg"] = "Form Submitted"
+            mydictionary["error"] = errorflag
+            mydictionary["errors"] = Errors
+            return render(request, 'myform2.html', context=mydictionary)
+
     elif request.method == "GET":
         form = FeedbackForm()
         mydictionary = {
