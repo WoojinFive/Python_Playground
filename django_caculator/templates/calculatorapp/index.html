@@ -1,3 +1,5 @@
+{% load static %}
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,7 +12,7 @@
 
     <title>Django Caculator App</title>
   </head>
-  <body>
+  <body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Django Calculator App</a>
@@ -20,35 +22,91 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructions" class="nav-link">Instructions</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-bottom: 20rem;">
+      <div class="row">
+        <div class="col-md-6" style="margin: 0 auto;">
+          {% if error %}
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+              <strong>Error</strong>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+          {% else %}
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+              <strong>{{ ans }}</strong>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+          {% endif %}
+        </div>
+      </div>
       <div class="row">
         <div class="col-md-6" style="margin: 1rem auto 0;">
+        <img src="{% static 'main.jpg' %}" alt="" class="img-fluid">
           <div class="card">
             <div class="card-body">
-              <form action="GET" action="#">
+              <form method="GET" action="{% url 'submitquery' %}">
                 <div class="input-group mb-3">
                   <input type="search" class="form-control" name="query" id="query">
                 </div>
-                <input type="submit" class="btn btn-primary">
-                <input type="reset" class="btn btn-primary">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="submit" class="btn btn-success" style="display:block; margin: 0 auto;">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="reset" class="btn btn-danger" style="display:block; margin: 0 auto;">
+                  </div>
+                </div>
               </form>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6" style="margin: 2rem auto 0;">
+          <p class="display-4" id="about" name="about" style="text-align: center;">
+            About
+          </p>
+          <hr>
+          <p class="lead" style="text-align: center;">
+            Our Calculator app can perform mathmatical operations
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6" style="margin: 2rem auto 0;">
+          <p class="display-4" id="instructions" name="instructions" style="text-align: center;">
+            Instructions
+          </p>
+          <hr>
+          <ul class="list-group">
+            <li class="list-group-item">+ Addition</li>
+            <li class="list-group-item">- Minus</li>
+            <li class="list-group-item">* Multiplication</li>
+            <li class="list-group-item">/ DIvision</li>
+            <li class="list-group-item">// Floor Division</li>
+            <li class="list-group-item">** Exponential</li>
+            <li class="list-group-item">% Mod</li>
+            <li class="list-group-item">( ) Parentheses</li>
+          </ul>
         </div>
       </div>
     </div>
 
     <div class="conatiner-fluid">
       <div class="row">
-        <footer class="fixed-bottom navbar-light">
-          <p>Footer</p>
+        <footer class="fixed-bottom navbar-light" style="background: black; color: white; text-align: center;">
+          <p>Thanks for using our app.</p>
         </footer>
       </div>
     </div>
