@@ -1,10 +1,28 @@
-programming_dictionary = {
-    "Bug": "An error in a program that prevents the program from running as expected.",
-    "Function": "A piece of code that you can easily call over and over again.",
+student_scores = {
+    "Harry": 81,
+    "Ron": 78,
+    "Hermione": 99,
+    "Draco": 74,
+    "Neville": 62,
 }
+# 🚨 Don't change the code above 👆
 
-print(programming_dictionary["Bug"])
+# TODO-1: Create an empty dictionary called student_grades.
+student_grades = {}
 
-programming_dictionary["Loop"] = "The action of doing something over and over again"
+# TODO-2: Write your code below to add the grades to student_grades.👇
+for key in student_scores:
+    score = student_scores[key]
+    if score >= 91 and score <= 100:
+        criteria = "Outstanding"
+    elif score >= 81 and score <= 90:
+        criteria = "Exceeds Expectations"
+    elif score >= 71 and score <= 80:
+        criteria = "Acceptable"
+    else:
+        criteria = "Fail"
 
-print(programming_dictionary)
+    student_grades[key] = criteria
+
+# 🚨 Don't change the code below 👇
+print(student_grades)
