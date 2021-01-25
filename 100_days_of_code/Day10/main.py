@@ -1,27 +1,40 @@
-def is_leap(year):
-    """Docstrings
-    example."""
-    if year % 4 == 0:
-        if year % 100 == 0:
-            if year % 400 == 0:
-                return True
-            else:
-                return False
-        else:
-            return True
-    else:
-        return False
+# Calculator
+
+# Add
+def add(n1, n2):
+    return n1 + n2
 
 
-def days_in_month(year, month):
-    month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    if is_leap(year) and month == 2:
-        return 29
-    return month_days[month - 1]
+# Subtract
+def subtract(n1, n2):
+    return n1 - n2
 
 
-# 🚨 Do NOT change any of the code below
-year = int(input("Enter a year: "))
-month = int(input("Enter a month: "))
-days = days_in_month(year, month)
-print(days)
+# Multiply
+def multiply(n1, n2):
+    return n1 * n2
+
+
+# Divide
+def divide(n1, n2):
+    return n1 / n2
+
+
+operations = {
+    "+": add,
+    "-": subtract,
+    "*": multiply,
+    "/": divide
+}
+
+num1 = int(input("What's the first number?: "))
+opertaion_symbol = input("Pick an operation from the line above: ")
+num2 = int(input("What's the second number?: "))
+
+for symbol in operations:
+    print(symbol)
+
+calculation_function = operations[opertaion_symbol]
+answer = calculation_function(num1, num2)
+
+print(f"{num1} {opertaion_symbol} {num2} = {answer}")
