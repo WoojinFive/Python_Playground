@@ -1,29 +1,33 @@
-travel_log = [
-    {
-        "country": "France",
-        "visits": 12,
-        "cities": ["Paris", "Lille", "Dijon"]
-    },
-    {
-        "country": "Germany",
-        "visits": 5,
-        "cities": ["Berlin", "Hamburg", "Stuttgart"]
-    },
-]
-# 🚨 Do NOT change the code above
+from art import logo
 
-# TODO: Write the function that will allow new countries
-# to be added to the travel_log. 👇
+print(logo)
+print("Welcome to the secret auction program.")
+
+bids = {}
+should_continue = True
 
 
-def add_new_country(country_visited, time_visited, cities_visited):
-    new_country = {}
-    new_country["country"] = country_visited
-    new_country["visits"] = country_visited
-    new_country["cities"] = country_visited
-    travel_log.append(new_country)
+def do_bid():
+    name = input("What is your name?: ")
+    bid = int(input("What's your bid?: $"))
+    bids[name] = bid
 
 
-# 🚨 Do not change the code below
-add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
-print(travel_log)
+def show_result():
+    winner = ''
+    temp_bid = 0
+    for key in bids:
+        if bids[key] > temp_bid:
+            temp_bid = bids[key]
+            winner = key
+    print(f"The winner is {winner} with a bid or ${bids[winner]}.")
+
+
+while should_continue:
+    do_bid()
+
+    keep_going = input("Are there any other bidders? Type 'yes' or 'no.\n")
+    if keep_going == 'no':
+        should_continue = False
+
+show_result()
