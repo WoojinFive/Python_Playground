@@ -41,7 +41,7 @@
   width: 10rem;
   height: 10rem;
   object-fit: cover;
-  object-position: top;
+  object-position: center;
   border: 5px solid white;
   border-radius: 12px;
   background-color: #ffe1bf;
