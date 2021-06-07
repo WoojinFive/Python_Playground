@@ -119,3 +119,9 @@ class ReviewsListView(ListView):
 class SingleReviewView(DetailView):
     template_name = 'reviews/single_review.html'
     model = Review
+
+
+class AddFavoriteView(View):
+    def post(self, request):
+        review_id = request.POST['review_id']
+        Review.objects.get(pk=review_id)
