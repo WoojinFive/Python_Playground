@@ -1,5 +1,5 @@
 from turtle import Turtle, Screen, shape
-from random import randint
+from random import randint, choice
 
 screen = Screen()
 screen.colormode(255)
@@ -7,16 +7,20 @@ screen.colormode(255)
 timmy_the_turtle = Turtle()
 timmy_the_turtle.shape("turtle")
 
-def draw_shape(num_sides):
-    angle = 360 / num_sides
-    
-    for _ in range(num_sides):
-        timmy_the_turtle.forward(100)
-        timmy_the_turtle.right(angle)
+def draw_line():
+    timmy_the_turtle.forward(20)
 
+def change_direction():
+    angles = [90, 180, 270, 360]
+    timmy_the_turtle.right(choice(angles))
 
-for shape_side_n in range(3, 11):
+def change_color():
     timmy_the_turtle.color((randint(0, 255), randint(0, 255), randint(0, 255)))
-    draw_shape(shape_side_n)
+
+
+for _ in range(100):
+    change_color()
+    change_direction()
+    draw_line()
 
 screen.exitonclick()
