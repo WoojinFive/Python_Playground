@@ -6,20 +6,23 @@ screen.colormode(255)
 
 timmy_the_turtle = Turtle()
 timmy_the_turtle.shape("turtle")
-timmy_the_turtle.pensize(5)
 timmy_the_turtle.speed("fastest")
 
-directions = [0, 90, 180, 270]
+def random_color():
+    r = randint(0, 255)
+    g = randint(0, 255)
+    b = randint(0, 255)
 
-def draw_line(length):
-    timmy_the_turtle.forward(length)
+    color = (r, g, b)
 
-def change_color():
-    timmy_the_turtle.color((randint(0, 255), randint(0, 255), randint(0, 255)))
+    return color
 
-for _ in range(200):
-    change_color()
-    draw_line(20)
-    timmy_the_turtle.setheading(choice(directions))
+def draw_spirograph(size_of_gap):
+    for _ in range(int(360 / size_of_gap)):
+        timmy_the_turtle.color(random_color())
+        timmy_the_turtle.circle(100)
+        timmy_the_turtle.setheading(timmy_the_turtle.heading() + size_of_gap)
+
+draw_spirograph(5)
 
 screen.exitonclick()
