@@ -6,21 +6,20 @@ screen.colormode(255)
 
 timmy_the_turtle = Turtle()
 timmy_the_turtle.shape("turtle")
+timmy_the_turtle.pensize(5)
+timmy_the_turtle.speed("fastest")
 
-def draw_line():
-    timmy_the_turtle.forward(20)
+directions = [0, 90, 180, 270]
 
-def change_direction():
-    angles = [90, 180, 270, 360]
-    timmy_the_turtle.right(choice(angles))
+def draw_line(length):
+    timmy_the_turtle.forward(length)
 
 def change_color():
     timmy_the_turtle.color((randint(0, 255), randint(0, 255), randint(0, 255)))
 
-
-for _ in range(100):
+for _ in range(200):
     change_color()
-    change_direction()
-    draw_line()
+    draw_line(20)
+    timmy_the_turtle.setheading(choice(directions))
 
 screen.exitonclick()
