@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8564772d-51c4-46e3-ac32-4ae049f373dd" name="Default Changelist" comment="" />
+    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_Playground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Playground.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,78 +19,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1gcCTOa8jWTm4td2BUQqqNo2v0w" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2Wb1NbRJkSObhggaatf4fIdlU4t" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RunManager">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Playground" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/price_of_chair/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/price_of_chair/src/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.app" />
-      </list>
-    </recent_temporary>
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8564772d-51c4-46e3-ac32-4ae049f373dd" name="Default Changelist" comment="" />
-      <created>1598404501826</created>
+      <changelist id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="" />
+      <created>1696986426538</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598404501826</updated>
+      <updated>1696986426538</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1379" height="271" key="GridCell.Tab.0.bottom" timestamp="1598404585402">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.bottom/0.23.2560.1417/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1598404573860" />
-    <state width="1379" height="271" key="GridCell.Tab.0.bottom/0.23.2560.1417/-1920.23.1920.1057@0.23.2560.1417" timestamp="1598404585402" />
-    <state width="1379" height="271" key="GridCell.Tab.0.center" timestamp="1598404585402">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.center/0.23.2560.1417/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1598404573859" />
-    <state width="1379" height="271" key="GridCell.Tab.0.center/0.23.2560.1417/-1920.23.1920.1057@0.23.2560.1417" timestamp="1598404585402" />
-    <state width="1379" height="271" key="GridCell.Tab.0.left" timestamp="1598404585401">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.left/0.23.2560.1417/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1598404573858" />
-    <state width="1379" height="271" key="GridCell.Tab.0.left/0.23.2560.1417/-1920.23.1920.1057@0.23.2560.1417" timestamp="1598404585401" />
-    <state width="1379" height="271" key="GridCell.Tab.0.right" timestamp="1598404585402">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.right/0.23.2560.1417/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1598404573859" />
-    <state width="1379" height="271" key="GridCell.Tab.0.right/0.23.2560.1417/-1920.23.1920.1057@0.23.2560.1417" timestamp="1598404585402" />
-    <state x="-1562" y="162" key="SettingsEditor" timestamp="1598404571836">
-      <screen x="-1920" y="23" width="1920" height="1057" />
-    </state>
-    <state x="-1562" y="162" key="SettingsEditor/0.23.2560.1417/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1598404571836" />
   </component>
 </project>
