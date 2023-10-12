@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="Screen Setup and Creating a Snake Body">
+    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment=" Animating the Snake Segments on Screen">
+      <change afterPath="$PROJECT_DIR$/100_days_of_code/Day20/snake.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/100_days_of_code/Day20/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_days_of_code/Day20/main.py" afterDir="false" />
     </list>
@@ -71,11 +72,20 @@
       <option name="project" value="LOCAL" />
       <updated>1696987682623</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" Animating the Snake Segments on Screen">
+      <option name="closed" value="true" />
+      <created>1697070030101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697070030101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Screen Setup and Creating a Snake Body" />
-    <option name="LAST_COMMIT_MESSAGE" value="Screen Setup and Creating a Snake Body" />
+    <MESSAGE value=" Animating the Snake Segments on Screen" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Animating the Snake Segments on Screen" />
   </component>
 </project>
