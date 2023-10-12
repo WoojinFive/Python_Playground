@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment=" Animating the Snake Segments on Screen">
-      <change afterPath="$PROJECT_DIR$/100_days_of_code/Day20/snake.py" afterDir="false" />
+    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="Create a Snake Class &amp; Move to OOP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/100_days_of_code/Day20/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_days_of_code/Day20/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_days_of_code/Day20/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_days_of_code/Day20/snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,12 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697070030101</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create a Snake Class &amp; Move to OOP">
+      <option name="closed" value="true" />
+      <created>1697070438796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697070438796</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Screen Setup and Creating a Snake Body" />
     <MESSAGE value=" Animating the Snake Segments on Screen" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Animating the Snake Segments on Screen" />
+    <MESSAGE value="Create a Snake Class &amp; Move to OOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a Snake Class &amp; Move to OOP" />
   </component>
 </project>
