@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="Create a Paddle that responds to Key Presses">
-      <change afterPath="$PROJECT_DIR$/100_days_of_code/Day22/paddle.py" afterDir="false" />
+    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="Write the Paddle Class and Create the Second Paddle">
+      <change afterPath="$PROJECT_DIR$/100_days_of_code/Day22/ball.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/100_days_of_code/Day22/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_days_of_code/Day22/main.py" afterDir="false" />
     </list>
@@ -174,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697326775611</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Write the Paddle Class and Create the Second Paddle">
+      <option name="closed" value="true" />
+      <created>1697327150274</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697327150274</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -191,6 +199,7 @@
     <MESSAGE value="added comment" />
     <MESSAGE value="Set up the Main Screen" />
     <MESSAGE value="Create a Paddle that responds to Key Presses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a Paddle that responds to Key Presses" />
+    <MESSAGE value="Write the Paddle Class and Create the Second Paddle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Write the Paddle Class and Create the Second Paddle" />
   </component>
 </project>
