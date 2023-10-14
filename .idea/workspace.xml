@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="Detect Collisions with the Wall">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_days_of_code/Day21/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_days_of_code/Day21/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_days_of_code/Day21/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_days_of_code/Day21/snake.py" afterDir="false" />
+    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="Detect Collisions with your own Tail">
+      <change beforePath="$PROJECT_DIR$/100_days_of_code/Day21/main_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_days_of_code/Day21/practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697244033690</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Detect Collisions with your own Tail">
+      <option name="closed" value="true" />
+      <created>1697244540827</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697244540827</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,6 +152,7 @@
     <MESSAGE value="Detect Collisions with Food" />
     <MESSAGE value="Create a Scoreboard and Keep Score" />
     <MESSAGE value="Detect Collisions with the Wall" />
-    <option name="LAST_COMMIT_MESSAGE" value="Detect Collisions with the Wall" />
+    <MESSAGE value="Detect Collisions with your own Tail" />
+    <option name="LAST_COMMIT_MESSAGE" value="Detect Collisions with your own Tail" />
   </component>
 </project>

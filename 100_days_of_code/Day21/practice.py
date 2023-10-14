@@ -20,3 +20,9 @@ nemo = Fish()
 nemo.swim()
 nemo.breath()
 print(nemo.num_eyes)
+
+piano_keys = ["a", "b", "c", "d", "e", "f", "g"]
+piano_tuple = ("do", "re", "mo", "fa", "so", "la", "ti")
+
+print(piano_keys[2:5])
+print(piano_tuple[::-1])
