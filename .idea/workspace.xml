@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="Class Inheritance">
-      <change afterPath="$PROJECT_DIR$/100_days_of_code/Day21/food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_days_of_code/Day21/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_days_of_code/Day21/main_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100_days_of_code/Day21/snake.py" afterDir="false" />
+    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="Detect Collisions with Food">
+      <change afterPath="$PROJECT_DIR$/100_days_of_code/Day21/scoreboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_days_of_code/Day21/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_days_of_code/Day21/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697242302137</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Detect Collisions with Food">
+      <option name="closed" value="true" />
+      <created>1697242995446</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697242995446</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,16 +127,7 @@
     <MESSAGE value="Create a Snake Class &amp; Move to OOP" />
     <MESSAGE value="How to Control the Snake with a Keypress" />
     <MESSAGE value="Class Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class Inheritance" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/100_days_of_code/Day21/main.py</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Detect Collisions with Food" />
+    <option name="LAST_COMMIT_MESSAGE" value="Detect Collisions with Food" />
   </component>
 </project>
