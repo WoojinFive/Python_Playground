@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="Detect Collisions with your own Tail">
-      <change beforePath="$PROJECT_DIR$/100_days_of_code/Day21/main_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_days_of_code/Day21/practice.py" afterDir="false" />
+    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="How to Slice Lists &amp; Tuples in Python">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_days_of_code/Day21/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_days_of_code/Day21/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697244540827</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="How to Slice Lists &amp; Tuples in Python">
+      <option name="closed" value="true" />
+      <created>1697245064413</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697245064413</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -153,6 +162,7 @@
     <MESSAGE value="Create a Scoreboard and Keep Score" />
     <MESSAGE value="Detect Collisions with the Wall" />
     <MESSAGE value="Detect Collisions with your own Tail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Detect Collisions with your own Tail" />
+    <MESSAGE value="How to Slice Lists &amp; Tuples in Python" />
+    <option name="LAST_COMMIT_MESSAGE" value="How to Slice Lists &amp; Tuples in Python" />
   </component>
 </project>
