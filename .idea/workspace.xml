@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="Detect Collisions with Food">
-      <change afterPath="$PROJECT_DIR$/100_days_of_code/Day21/scoreboard.py" afterDir="false" />
+    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="Create a Scoreboard and Keep Score">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/100_days_of_code/Day21/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_days_of_code/Day21/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_days_of_code/Day21/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_days_of_code/Day21/scoreboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697242995446</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create a Scoreboard and Keep Score">
+      <option name="closed" value="true" />
+      <created>1697243793831</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697243793831</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -128,6 +136,7 @@
     <MESSAGE value="How to Control the Snake with a Keypress" />
     <MESSAGE value="Class Inheritance" />
     <MESSAGE value="Detect Collisions with Food" />
-    <option name="LAST_COMMIT_MESSAGE" value="Detect Collisions with Food" />
+    <MESSAGE value="Create a Scoreboard and Keep Score" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a Scoreboard and Keep Score" />
   </component>
 </project>
