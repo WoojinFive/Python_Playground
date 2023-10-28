@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="How to Detect when the Ball goes Out of Bounds">
-      <change afterPath="$PROJECT_DIR$/100_days_of_code/Day22/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_days_of_code/Day22/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_days_of_code/Day22/ball.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100_days_of_code/Day22/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_days_of_code/Day22/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="9b8633f8-5df1-418b-ab47-b74309d13010" name="Changes" comment="Score Keeping and Changing the Ball Speed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -215,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697500814217</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Score Keeping and Changing the Ball Speed">
+      <option name="closed" value="true" />
+      <created>1697501431970</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697501431970</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -237,6 +240,7 @@
     <MESSAGE value="Add the Ball Bouncing Logic" />
     <MESSAGE value="How to Detect Collisions with the Paddle" />
     <MESSAGE value="How to Detect when the Ball goes Out of Bounds" />
-    <option name="LAST_COMMIT_MESSAGE" value="How to Detect when the Ball goes Out of Bounds" />
+    <MESSAGE value="Score Keeping and Changing the Ball Speed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Score Keeping and Changing the Ball Speed" />
   </component>
 </project>
