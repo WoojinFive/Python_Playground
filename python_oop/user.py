@@ -19,6 +19,10 @@ class User:
   @classmethod
   def check_user_count(cls):
     return cls.user_count
+  
+  @staticmethod
+  def add_two_parameter(param1, param2):
+    return param1 + param2
 
 
 user1 = User("kim", "1234", "kim@gmail.com")
@@ -37,3 +41,5 @@ print(user1)
 print(user1.name, user1.pw, user1.email)
 
 print(User.check_user_count())
+
+print(User.add_two_parameter(1, 3))
