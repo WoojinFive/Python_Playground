@@ -15,6 +15,10 @@ class User:
 
   def __str__(self):
     return "Hello, my name is {}.".format(self.name)
+  
+  @classmethod
+  def check_user_count(cls):
+    return cls.user_count
 
 
 user1 = User("kim", "1234", "kim@gmail.com")
@@ -31,3 +35,5 @@ print(user2.user_count)
 print(user1)
 
 print(user1.name, user1.pw, user1.email)
+
+print(User.check_user_count())
